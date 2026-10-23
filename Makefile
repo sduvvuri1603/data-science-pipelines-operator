@@ -47,7 +47,7 @@ ifeq ($(USE_IMAGE_DIGESTS), true)
 endif
 
 # Image URL to use all building/pushing image targets
-IMG ?= quay.io/opendatahub/data-science-pipelines-operator:odh-main
+IMG ?= quay.io/opendatahub/data-science-pipelines-operator:odh-stable
 
 # TARGETARCH specifies the target architecture for the binary (amd64 or arm64).
 # Default is amd64.
